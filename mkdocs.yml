@@ -1,0 +1,24 @@
+site_name: EpiGraphHub
+
+docs_dir: pages
+site_dir: build
+
+theme:
+  name: null
+  custom_dir: 'theme/'
+
+extra_css:
+  - theme/style.css
+
+nav:
+  - Home: 'index.md'
+  - Dashboard: 'https://dash.epigraphhub.org'
+  - Blog:
+    - main: 'blog/index.md'
+    - "Airflow": 'blog/airflow.md'
+  - Repositories: 'repositories.md'
+  - Partners: 'partners.md'
+  - Contact: 'contact.md'
+
+plugins:
+  - mkdocs-jupyter
