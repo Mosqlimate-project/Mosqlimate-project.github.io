@@ -1,0 +1,11 @@
+name: epigraphhub.io
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python
+  - mkdocs
+  - mkdocs-jupyter
+  # dev
+  - make
+  - pre-commit
