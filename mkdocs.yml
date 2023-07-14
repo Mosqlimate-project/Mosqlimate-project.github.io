@@ -1,4 +1,4 @@
-site_name: EpiGraphHub
+site_name: Mosqlimate
 
 docs_dir: pages
 site_dir: build
@@ -12,7 +12,6 @@ extra_css:
 
 nav:
   - Home: 'index.md'
-  - Dashboard: 'https://dash.epigraphhub.org'
   - Blog:
     - main: 'blog/index.md'
     - "Airflow": 'blog/airflow.md'
