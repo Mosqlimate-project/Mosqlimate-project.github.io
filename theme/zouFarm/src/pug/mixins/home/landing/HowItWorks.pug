@@ -1,0 +1,56 @@
+
+mixin TabContent(config)
+  .row.align-items-center.my-6.mx-auto
+    .col-md-6.col-lg-5.offset-md-1
+      h3.fw-bold.lh-base.text-white=config.title
+    .col-md-5.text-white.offset-lg-1
+      p.mb-0=config.text
+
+mixin HowItWorksTab 
+  ul.nav.justify-content-between
+    li.nav-item(role='presentation')
+      a(href='#bootstrap-tab1' data-bs-toggle='tab' data-bs-target='#tab1'  ).nav-link.active.fw-semi-bold#tab-1
+        span.nav-item-circle-parent
+          span.nav-item-circle
+            | 01
+
+    li.nav-item(role='presentation')
+      a(href='#bootstrap-tab2' data-bs-toggle='tab' data-bs-target='#tab2').nav-link.fw-semi-bold#tab-2
+        span.nav-item-circle-parent
+          span.nav-item-circle
+            | 02
+
+    li.nav-item(role='presentation')
+      a(href='#bootstrap-tab3' data-bs-toggle='tab'  data-bs-target='#tab3').nav-link.fw-semi-bold#tab-3
+        span.nav-item-circle-parent
+          span.nav-item-circle
+            | 03
+
+    li.nav-item(role='presentation')
+      a(href='#bootstrap-tab4' data-bs-toggle='tab' data-bs-target='#tab4').nav-link.fw-semi-bold#tab-4
+        span.nav-item-circle-parent
+          span.nav-item-circle
+            | 04
+
+  .tab-content#myTabContent
+    .tab-pane.fade.show.active#tab1(role='tabpanel' aria-labelledby='tab-1') 
+      +TabContent({title: 'Select your farmshare and complete reservation form here.', text: 'Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere'})
+    .tab-pane.fade#tab2(role='tabpanel' aria-labelledby='tab-2')
+      +TabContent({title: 'The Farm Share has been one of the best new additions to our life', text: 'We the farmers choose the vegetables in your share each week. A Farm Share is perfect for those who love the weekly surprise, and who look forward to cooking with inspiration from the seasons.'})
+    .tab-pane.fade#tab3(role='tabpanel' aria-labelledby='tab-3') 
+      +TabContent({title: 'There is so much love and thought put into this CSA. You can feel that.', text: 'We the farmers choose the vegetables in your share each week. A Farm Share is perfect for those who love the weekly surprise, and who look forward to cooking with inspiration from the seasons.'})
+    .tab-pane.fade#tab4(role='tabpanel' aria-labelledby='tab-4') 
+      +TabContent({title: 'The Farm Share has been one of the best new additions to our life', text: 'We the farmers choose the vegetables in your share each week. A Farm Share is perfect for those who love the weekly surprise, and who look forward to cooking with inspiration from the seasons.'})
+
+
+mixin HowItWorks 
+  section.py-0
+    +Background({ image: `${CWD}assets/img/illustrations/how-it-works.png`, attrs: { style: { 'background-position': 'center bottom', 'background-size': 'cover'} }, className: '' })
+    .container-lg
+      .row.justify-content-center
+        .col-sm-8.col-md-9.col-xl-5.text-center.pt-8
+          h5.fw-bold.fs-3.fs-xxl-5.lh-sm.mb-3.text-white How it works
+          p.mb-5.text-white Take your pick from the supply chain and participate in agribusiness projects that are backed up not only by Zou, but also by the best land, family heritage, innovation and overall superior expertise.
+        .col-sm-9.col-md-12.col-xxl-9
+          .theme-tab
+            +HowItWorksTab 

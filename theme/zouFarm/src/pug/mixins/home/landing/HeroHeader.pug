@@ -1,0 +1,13 @@
+mixin HeroHeader
+  section.py-0#header
+    +Background({ image: `${CWD}assets/img/illustrations/hero-header.png`, attrs: { style: { 'background-position': 'right top', 'background-size': 'contain'} }, className: 'd-none d-md-block' })
+    +Background({image: `${CWD}assets/img/illustrations/hero-bg.png`, attrs: { style: { 'background-position': 'right top', 'background-size': 'contain'} }, className: 'd-md-none' })
+    .container
+      .row.align-items-center.min-vh-75.min-vh-lg-100
+        .col-md-7.col-lg-6.col-xxl-5.py-6.text-sm-start.text-center
+          h1.mt-6.mb-sm-4.fw-semi-bold.lh-sm.fs-4.fs-lg-5.fs-xl-6 A New Way to Invest 
+            br.d-block.d-lg-block
+            |in Agriculture
+          p.mb-4.fs-1 Zou provides farmes, ranchers, private foresters, and agricultural producers with online self service applications and educational materials.
+          a.btn.btn-lg.btn-success(href='#' role='button') Invest Now
+              

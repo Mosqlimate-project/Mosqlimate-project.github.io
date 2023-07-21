@@ -1,0 +1,20 @@
+.card-span {
+  transform: translateY(0) translateZ(0);
+  transition: all 0.3s ease-out;
+  border:0;
+  &.hover-top-shadow-lg {
+    &:hover,
+    &:focus {
+      transform: translateY(-0.3125rem) translateZ(0);
+    }
+  }
+  &:hover,
+  &:focus {
+    transform: translateY(-0.125rem) translateZ(0);
+    box-shadow: 0.5rem 0.5rem 1.5rem rgba(22, 28, 45, 0.1) !important;
+    background-color: #D9EEDA;
+  }
+  
+}
+
+

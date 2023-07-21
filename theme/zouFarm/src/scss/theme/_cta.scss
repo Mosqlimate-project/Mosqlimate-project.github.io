@@ -1,0 +1,10 @@
+
+.cta{
+  margin-bottom:-21rem;
+}
+@include media-breakpoint-up(md) {
+  .cta{
+    margin-bottom:-20rem;
+  }
+}
+

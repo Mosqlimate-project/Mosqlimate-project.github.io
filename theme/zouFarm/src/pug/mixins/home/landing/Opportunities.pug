@@ -1,0 +1,43 @@
+append variables
+  -
+    var opportunities= [
+      {
+        image:'farmer.svg',
+        title  :'Connect with our farmers',
+        text: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione',
+      },
+      {
+        image:'growth.svg',
+        title  :'Grow your business',
+        text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
+      },
+      {
+        image:'planting.svg',
+        title  :'Social Impact Invesment',
+        text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos',
+      },
+
+    ];
+
+mixin Opportunity(config)
+  .col-md-4.mb-5
+    .card.h-100.shadow.px-4.px-md-2.px-lg-3.card-span.pt-6
+      .text-center.text-md-start.card-hover
+        img(src=`${CWD}assets/img/icons/${config.image}` height="60" alt='').ps-3.icons
+        .card-body
+          h6.fw-bold.fs-1.heading-color=config.title
+          p.mt-3.mb-md-0.mb-lg-2=config.text
+
+mixin Opportunities
+  section.py-5#Opportuanities
+    +Background({ image: `${CWD}assets/img/illustrations/bg.png`, attrs: { style: { 'background-position': 'top left', 'background-size': '225px 755px','margin-top': '-17.5rem'} }, className: 'd-none d-sm-block' })
+    .container
+      .row
+        .col-lg-9.mx-auto.text-center.mb-3
+          h5.fw-bold.fs-3.fs-lg-5.lh-sm.mb-3 New Opportunities
+          p.mb-5 We are the first and the only crowdfunding platform enabling you to help finance our farmers.
+      .row.flex-center.h-100
+        .col-xl-9
+          .row
+            each Opportunity in opportunities
+              +Opportunity(Opportunity)
