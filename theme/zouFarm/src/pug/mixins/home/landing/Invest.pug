@@ -1,0 +1,45 @@
+append variables
+  -
+    var invest= [
+      {
+        image:'short-terms.png',
+        title  :'NEW FARM TODAY',
+        subTitle  :'Short terms investment',
+        text: 'Invest in farms that will be ready for harvest in 3-18 months',
+        bg: 'bg-dark-gradient',
+        btnText:'Browse Farm',
+      },
+      {
+        image:'fully-funded.png',
+        title  :'FULLY FUNDED',
+        subTitle  :'Long terms investment',
+        text: 'Consider farms that have long term investment program.',
+        bg: 'bg-light-gradient',
+        btnText:'Learn More',
+      },
+      
+    ];
+
+
+mixin InvestCard(config) 
+  .col-md-6.mb-5
+    .card.text-white
+      img.card-img(src=`${CWD}assets/img/gallery/${config.image}` alt='...')
+      .card-img-overlay.d-flex.flex-column.justify-content-center.px-5.px-md-3.px-lg-5(class=`${config.bg}`)
+        h6.text-success.pt-2=config.title
+        hr.text-white(style='height:0.12rem;width:2.813rem')
+        .pt-lg-3
+          h6.fw-bold.text-white.fs-1.fs-md-2.fs-lg-3.w-xxl-50=config.subTitle
+          p.w-xxl-75=config.text
+          button.btn.btn-lg.btn-light.text-success(type='button')=config.btnText
+        
+mixin Invest
+  +Section.py-5#invest
+    .row.justify-content-center
+      .col-xl-9.mb-3
+        .row
+          .col-lg-9.mb-3
+            h5.fw-bold.fs-3.fs-lg-5.lh-sm.mb-3 Invest on your convenience
+            p.mb-5 Autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+          each item in invest
+            +InvestCard(item)

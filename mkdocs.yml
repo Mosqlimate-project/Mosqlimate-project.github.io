@@ -1,23 +1,12 @@
 site_name: Mosqlimate
+site_email: flavio.codeco.coelho@fgv.br
 
 docs_dir: pages
 site_dir: build
 
 theme:
   name: null
-  custom_dir: 'theme/'
-
-extra_css:
-  - theme/style.css
+  custom_dir: 'theme/zouFarm/public/'
 
 nav:
   - Home: 'index.md'
-  - Blog:
-    - main: 'blog/index.md'
-    - "Airflow": 'blog/airflow.md'
-  - Repositories: 'repositories.md'
-  - Partners: 'partners.md'
-  - Contact: 'contact.md'
-
-plugins:
-  - mkdocs-jupyter

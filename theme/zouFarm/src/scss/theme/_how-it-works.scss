@@ -1,0 +1,90 @@
+// Wizard
+.theme-tab{
+  .nav-link {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    display: block;
+    .nav-item-circle {
+      color: $white;
+      background-color: $success;
+      border: 2px solid $white;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      line-height: 2.75rem;
+      padding: 0;
+      text-align: center;
+      align-self: center;
+      display: block;
+      transition: $transition-base;
+    }
+    &.active {
+      .nav-item-circle {
+        background-color: $white !important;
+        color: $success;
+        border-color: $white;
+      }
+      color: $success;
+    }
+  
+    .nav-item-circle {
+      .check-icon {
+        display: none;
+      }
+    }
+    .nav-item-circle-parent {
+      display: block;
+      &:before {
+        content: "";
+        height: 2px;
+        width: 101%;
+        position: absolute;
+        left: 51%;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        background: $white;
+      }
+    }
+  }
+
+  .nav-item-circle-parent {
+    position: relative;
+    padding: 0 map-get($spacers, 3);
+  }
+  .nav-item-circle {
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    max-width: 100%;
+    justify-content: center;
+
+    &:first-child,
+    &:last-child {
+      .nav-item-circle-parent:before {
+        width: 50%;
+      }
+    }
+    &:first-child {
+      .nav-item-circle-parent:before {
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+    &:last-child {
+      .nav-item-circle-parent:before {
+        left: 0;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+  }
+
+}

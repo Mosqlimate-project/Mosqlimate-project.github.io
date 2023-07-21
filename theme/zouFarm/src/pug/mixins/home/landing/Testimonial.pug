@@ -1,0 +1,60 @@
+mixin Items(config)
+  .col-md-4.mb-5.mb-md-0
+    .card.h-100.shadow
+      .card-body.my-3      
+        .align-items-xl-center.d-block.d-xl-flex.px-3
+          img(src=`${CWD}assets/img/gallery/${config.image}` width="50" alt='').img-fluid.me-3.me-md-2.me-lg-3
+          .flex-1.align-items-center.pt-2
+            h5.mb-0.fw-bold.text-success=config.name
+            p.fw-normal.text-black=config.designation
+        p.mb-0.px-3.px-md-2.px-xxl-3=config.text    
+    
+mixin Testimonials
+  section.py-8#testimonial
+    .container-lg
+      .row.flex-center
+        .col-12.col-lg-10.col-xl-12
+          +Background({ image: `${CWD}assets/img/illustrations/testimonial-bg.png`, attrs: { style: { 'background-position': 'top left', 'background-size': '120px 83px',} }, className: '' })
+          h6.fs-3.fs-lg-4.fw-bold.lh-sm What investors like you 
+            br
+            |are saying about Zou
+        
+        
+        #carouselExampleDark.carousel.slide(data-bs-ride='carousel').pt-3
+          .carousel-inner
+            .carousel-item.active(data-bs-interval='10000')
+              .row.h-100.mx-3.mx-sm-5.mx-md-4.my-md-7.m-lg-7.mt-7
+                +Items({image: 'user-1.png', name:'Fernando Soler', designation:'Telecommunication Engineer', text:'"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae',
+                })
+                +Items({image: 'user-2.png', name:'Ilone Pickford', designation:'Head of Agrogofund ', text:'"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ',
+                })
+                +Items({image: 'user-3.png', name:'Ed O’Brien', designation:'Herbalist', text:'"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ',
+                })
+                      
+            .carousel-item(data-bs-interval='2000')
+              .row.h-100.mx-3.mx-sm-5.mx-md-4.my-md-7.m-lg-7.mt-7
+                +Items({image: 'user-1.png', name:'Fernando Soler', designation:'Telecommunication Engineer', text:'"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae',
+                })
+                +Items({image: 'user-2.png', name:'Ilone Pickford', designation:'Head of Agrogofund Groups ', text:'"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ',
+                })
+                +Items({image: 'user-3.png', name:'Ed O’Brien', designation:'Herbalist', text:'"Ui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio',
+                })
+          
+            .carousel-item
+              .row.h-100.mx-3.mx-sm-5.mx-md-4.my-md-7.m-lg-7.mt-7
+                +Items({image: 'user-1.png', name:'Fernando Soler', designation:'Telecommunication Engineer', text:'"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae',
+                })
+                +Items({image: 'user-2.png', name:'Ilone Pickford', designation:'Head of Agrogofund Groups ', text:'"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium ',
+                })
+                +Items({image: 'user-3.png', name:'Ed O’Brien', designation:'Herbalist', text:'"Ui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio',
+                })
+          .row.px-3.px-sm-6.px-md-0.px-lg-5.px-xl-4
+            .col-12.position-relative
+              a.carousel-control-prev.carousel-icon.z-index-2(href='#carouselExampleDark' role='button' data-bs-slide='prev')
+                span.carousel-control-prev-icon(aria-hidden='true')
+                span.visually-hidden Previous
+              a.carousel-control-next.carousel-icon.z-index-2(href='#carouselExampleDark' role='button' data-bs-slide='next')
+                span.carousel-control-next-icon(aria-hidden='true')
+                span.visually-hidden Next
+          
+
