@@ -1,5 +1,6 @@
 site_name: Mosqlimate
 site_email: flavio.codeco.coelho@fgv.br
+site_support: 'https://wellcome.org/news/new-digital-tools-use-climate-data-better-predict-and-prepare-infectious-diseases-outbreaks'
 
 docs_dir: pages
 site_dir: build
@@ -10,3 +11,6 @@ theme:
 
 nav:
   - Home: 'index.md'
+  - Data Platform: 'http://api.mosqlimate.org'
+  - Mosquito Surveillance: 'https://contaovos.dengue.mat.br/pt-br/'
+  - Contact: 'index.html#contact'
