@@ -13,4 +13,5 @@ nav:
   - Home: 'index.md'
   - Data Platform: 'http://api.mosqlimate.org'
   - Mosquito Surveillance: 'https://contaovos.dengue.mat.br/pt-br/'
+  - Team: 'index.html#team'
   - Contact: 'index.html#contact'
