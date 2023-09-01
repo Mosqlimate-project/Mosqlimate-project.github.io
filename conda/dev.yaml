@@ -9,3 +9,5 @@ dependencies:
   # dev
   - make
   - pre-commit
+  - pip:
+    - neoteroi-mkdocs

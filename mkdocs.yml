@@ -33,6 +33,13 @@ theme:
   hljs_languages:
     - python
 
+extra_css:
+  - vendors/neoteroi-mkdocs.css
+  - vendors/neoteroi-cards.css
+
+markdown_extensions:
+  - neoteroi.cards
+
 nav:
   - Home: 'index.md'
   - Data Platform: 'http://api.mosqlimate.org'
