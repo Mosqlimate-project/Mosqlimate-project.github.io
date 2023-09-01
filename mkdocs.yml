@@ -6,8 +6,32 @@ docs_dir: pages
 site_dir: build
 
 theme:
-  name: null
-  custom_dir: 'theme/zouFarm/public/'
+  name: "material"
+  language: "en"
+  shortcuts:
+    help: 191 # ?
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  palette:
+    primary: "white"
+    accent: "green"
+  features:
+    - tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.prefetch
+  font:
+    text: 'Golos Text'
+    code: 'Ubuntu'
+  icon:
+  logo: 'assets/img/logo-medium.png'
+  favicon: 'assets/img/favicon.ico'
+  highlightjs: true
+  hljs_languages:
+    - python
 
 nav:
   - Home: 'index.md'
