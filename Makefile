@@ -7,4 +7,4 @@ build:
 .PHONY: serve
 serve:
 	mkdir -p build
-	mkdocs serve --watch build --watch theme
+	mkdocs serve --watch build 
