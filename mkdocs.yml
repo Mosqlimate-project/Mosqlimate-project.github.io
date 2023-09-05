@@ -39,6 +39,10 @@ extra_css:
 
 markdown_extensions:
   - neoteroi.cards
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - Home: 'index.md'
