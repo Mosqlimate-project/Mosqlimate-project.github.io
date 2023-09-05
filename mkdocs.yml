@@ -33,6 +33,14 @@ theme:
   hljs_languages:
     - python
 
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Mosqlimate-project/
+      name: Mosqlimate Project
+
+copyright: Copyright &copy; 2023 -  Mosqlimate
+
 extra_css:
   - vendors/neoteroi-mkdocs.css
   - vendors/neoteroi-cards.css
