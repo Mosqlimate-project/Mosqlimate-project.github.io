@@ -1,4 +1,4 @@
-name: epigraphhub.io
+name: mosqlimate.io
 channels:
   - nodefaults
   - conda-forge
@@ -9,3 +9,6 @@ dependencies:
   # dev
   - make
   - pre-commit
+  - pip:
+    - neoteroi-mkdocs
+    - materialx
