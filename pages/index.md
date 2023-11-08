@@ -64,7 +64,7 @@ For 40 years, Brazil has witnessed the emergence of diseases transmitted by the 
   image: assets/img/team/leon.png
 
 - title: Eduardo Correa Araujo
-  content: Since the pandemic, I have been working with differential equation and machine learning models to understand and predict the spread of infectious diseases. I work on WP2 in the models to understand the impact of climate factors on arboviruses spreading.
+  content: A control and automation engineering student at UTFPR, Curitiba, Brazil. My interests are in working with differential equations and machine learning models to understand and predict the spread of infectious diseases. I work on WP2 in the models to understand the impact of climate factors on arboviruses spreading.
   image: assets/img/team/eduardo.png
 
 - title: Marcio Maciel Bastos
