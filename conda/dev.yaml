@@ -9,6 +9,7 @@ dependencies:
   # dev
   - make
   - pre-commit
+  - pyopengl
   - pip:
     - neoteroi-mkdocs
     - materialx
