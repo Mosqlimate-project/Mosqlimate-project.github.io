@@ -23,6 +23,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install OpenGL
+      run: sudo apt-get install -y libgl1-mesa-dev libegl1-mesa-dev
+
     - uses: conda-incubator/setup-miniconda@v2
       with:
         miniconda-version: "latest"
