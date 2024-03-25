@@ -48,7 +48,7 @@ The Mosqlimate Aedes aegypti Egg Image Dataset is available for non-commercial r
 The Mosqlimate Aedes aegypti Egg Image Dataset may contain sensitive information related to the individuals or locations depicted in the images. Users are expected to handle this data with the utmost confidentiality and respect for privacy. The dataset should not be used in any manner that could compromise the privacy or security of individuals or communities.
 
 ## Policy
-The Mosqlimate group reserves the right to update these terms and conditions at any time without prior notice. Users are responsible for regularly reviewing the terms of use to stay informed of any changes. By accessing or using the dataset, users agree to abide by the most current version of these terms and conditions.
+Upon accessing or utilizing the dataset, you are expressly acknowledging your agreement to comply with the prevailing version of the Open Data Commons (ODC) terms and conditions as detailed within the LICENSE.txt file.
 
 For inquiries regarding data usage, permissions, or any other questions, please contact the Mosqlimate group via [email](mailto:flavio.codeco.coelho@fgv.br).
 
