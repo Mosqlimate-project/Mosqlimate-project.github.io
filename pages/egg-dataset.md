@@ -31,7 +31,7 @@ Each ovitrap pallet contains the following information, written in the CSV file:
 
 ## Download
 
-[You can download all files, including photos and CSV explaining each photo, clicking here](https://api.mosqlimate.org/datastore/aedes-imgs-dataset/). Download is expected to have 70 MB and be compressed as a ZIP file.
+[You can download all files, including photos and CSV explaining each photo, clicking here](https://api.mosqlimate.org/datastore/aedes-img-dataset/). Download is expected to have 70 MB and be compressed as a ZIP file.
 
 ## Data Usage
 The Mosqlimate Aedes aegypti Egg Image Dataset is available for non-commercial research purposes only. By accessing and utilizing this dataset, users agree to the following terms:
