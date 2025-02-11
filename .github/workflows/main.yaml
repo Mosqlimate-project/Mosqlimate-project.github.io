@@ -21,20 +21,19 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Install OpenGL
-      run: sudo apt-get install -y libgl1-mesa-dev libegl1-mesa-dev
+      run: sudo apt-get install -y libgl1-mesa-dev libegl1-mesa-dev libxt-dev
 
-    - uses: conda-incubator/setup-miniconda@v2
+    - uses: conda-incubator/setup-miniconda@v3
       with:
-        miniconda-version: "latest"
-        mamba-version: "*"
+        miniforge-version: latest
         environment-file: conda/dev.yaml
         channels: conda-forge,nodefaults
-        activate-environment: osl
-        use-mamba: true
-        miniforge-variant: Mambaforge
+        activate-environment: mosqlimate.io
+        auto-update-conda: true
+        conda-solver: libmamba
 
     - name: Build the book
       run: make build
