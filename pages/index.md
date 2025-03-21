@@ -52,7 +52,7 @@ For 40 years, Brazil has witnessed the emergence of diseases transmitted by the 
   image: assets/img/team/iasmim.png
 
 - title: Raquel Martins Lana
-  content: Beatriu de Pinós fellow at the Barcelona Supercomputing Center in the Global Health Resilience group. Her background is in quantitative epidemiology and her research focuses on infectious disease dynamics and their association with environmental, climate, and social factors. She works on WP2 in the Mosqlimate project.
+  content: Marie Curie fellow at the Barcelona Supercomputing Center in the Global Health Resilience group. Her background is in quantitative epidemiology and her research focuses on infectious disease dynamics and their association with environmental, climate, and social factors. She is a collaborator in the Mosqlimate project.
   image: assets/img/team/raquel.png
 
 - title: Luã Bida Vacaro
