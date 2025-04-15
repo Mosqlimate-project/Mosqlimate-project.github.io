@@ -81,5 +81,5 @@ For 40 years, Brazil has witnessed the emergence of diseases transmitted by the 
 
 ### Contact
 
-[Contact :material-email:](mailto:flavio.codeco.coelho@fgv.br){: .md-button} [![Wellcome Trust](./assets/img/logo_wellcome.png){ align=right }](https://wellcome.org/news/new-digital-tools-use-climate-data-better-predict-and-prepare-infectious-diseases-outbreaks)
+[Contact :material-email:](mailto:mosqlimate@gmail.com){: .md-button} [![Wellcome Trust](./assets/img/logo_wellcome.png){ align=right }](https://wellcome.org/news/new-digital-tools-use-climate-data-better-predict-and-prepare-infectious-diseases-outbreaks)
 
