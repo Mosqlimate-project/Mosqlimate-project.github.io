@@ -18,9 +18,9 @@ For 40 years, Brazil has witnessed the emergence of diseases transmitted by the 
 
   **Mosqlimate will feed on multiple data streams: Infodengue (incidence data), Climate forecasts and mosquito population density data (Ovicounter) and run multi-arboviruses risk assessment models.** Mosqlimate has two main endpoints: probability of regime shift, that is, change in pattern of disease transmission from sporadic to epidemic to endemic patterns in response to climate and land use changes; and an alarm model for arbovirus outbreaks by known or new viruses, that will detect signs of expansion of arbovirus transmission areas as well as signs of non-identified outbreaks potentially linked to new arboviruses.
 
-<center>
-![Diagram](./assets/img/mosqlimate-diagram.png){ width="850" }
-</center>
+
+![Diagram](assets/img/mosqlimate-diagram.png#center){width="850"}
+
 ---
 
 # Team

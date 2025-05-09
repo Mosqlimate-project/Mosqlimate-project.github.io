@@ -44,13 +44,14 @@ copyright: Copyright &copy; 2023 -  Mosqlimate
 extra_css:
   - vendors/neoteroi-mkdocs.css
   - vendors/neoteroi-cards.css
+  - css/custom.css
 
 markdown_extensions:
   - neoteroi.cards
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: 'index.md'
