@@ -1,7 +1,7 @@
-# Mosqlimate Aedes aegypti Egg Image Dataset
+# OviCounter Image Dataset
 
 ## Overview
-The Mosqlimate Aedes aegypti Egg Image Dataset is a collection of almost 700 JPEG images capturing pallets containing Aedes aegypti eggs. These images are intended for use by developers and researchers working on the implementation of automatic counting applications for Aedes aegypti eggs. The dataset is curated and maintained by the Mosqlimate group, dedicated to projects related to mosquito-borne diseases and climate. The pallets were counted by and given by the Fiocruz IOC laboratory.
+The OviCounter Image Dataset is a collection of almost 700 JPEG images capturing pallets containing Aedes aegypti eggs. These images are intended for use by developers and researchers working on the implementation of automatic counting applications for Aedes aegypti eggs. The dataset is curated and maintained by the Mosqlimate group, dedicated to projects related to mosquito-borne diseases and climate. The pallets were counted by and given by the Fiocruz IOC laboratory.
 
 ## Dataset
 

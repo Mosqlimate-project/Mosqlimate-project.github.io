@@ -56,7 +56,7 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - Data Platform: 'http://api.mosqlimate.org'
-  - Ovicounter: 'https://contaovos.dengue.mat.br/pt-br/'
-  - Ovicounter Image Dataset: 'egg-dataset.md'
+  - OviCounter: 'https://contaovos.dengue.mat.br/pt-br/'
+  - OviCounter Image Dataset: 'egg-dataset.md'
   - Team: 'index.html#team'
   - Contact: 'index.html#contact'
