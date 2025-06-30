@@ -1,3 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>Noneegg-dataset/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneegg-dataset/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/egg-dataset/"/>
+    </url>
+    <url>
+        <loc>None./</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/"/>
+    </url>
+    <url>
+        <loc>Noneproducts/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneproducts/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/products/"/>
+    </url>
+    <url>
+        <loc>Noneteam/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneteam/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/team/"/>
+    </url>
+    <url>
+        <loc>Nonept/egg-dataset/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/egg-dataset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneegg-dataset/"/>
+    </url>
+    <url>
+        <loc>Nonept/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonept/products/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/products/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneproducts/"/>
+    </url>
+    <url>
+        <loc>Nonept/team/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/team/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneteam/"/>
+    </url>
 </urlset>
