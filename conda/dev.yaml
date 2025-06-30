@@ -12,3 +12,4 @@ dependencies:
   - pip:
     - neoteroi-mkdocs
     - materialx
+    - mkdocs-static-i18n
