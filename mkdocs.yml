@@ -33,6 +33,30 @@ theme:
   hljs_languages:
     - python
 
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            Home: Início
+            Data Platform: Plataforma de dados
+            OviCounter: Conta Ovos 
+            OviCounter Image Dataset: Imagens do Conta Ovos
+            Team: Equipe
+            Contact: Contato
+            Products: Produtos
+
 extra:
   social:
     - icon: fontawesome/brands/github 
@@ -58,5 +82,6 @@ nav:
   - Data Platform: 'http://api.mosqlimate.org'
   - OviCounter: 'https://contaovos.dengue.mat.br/pt-br/'
   - OviCounter Image Dataset: 'egg-dataset.md'
-  - Team: 'index.html#team'
+  - Team: 'team.md'
   - Contact: 'index.html#contact'
+  - Products: 'products.md'
