@@ -28,7 +28,7 @@ hide:
 
 - title: Eduardo Corrêa Araujo
   content: Bachelor's in control and automation engineering at UTFPR. He has experience in analyzing public health data and developing machine learning models applied to epidemiological contexts. His interests include data science applied to health, mathematical and computational modeling of diseases, development of tools in Python, and interdisciplinary collaboration in social impact projects. He works as a data scientist in the WP2 of the Mosqlimate project.  He is also Mosqlimate project manager.
-  image: assets/img/team/eduardo.png
+  image: assets/img/team/eduardo.jpg
 
 - title: Iasmim Ferreira de Almeida
   content: Postdoctoral researcher at FGV EMAp. PhD and Master's in Public Health Epidemiology from ENSP/FIOCRUZ. Researcher at the Infodengue project and Mosqlimate, she is a researcher at the WP2, where she works with models involving arbovirus transmission patterns and their epidemiological and climatic determinants. She is also Mosqlimate’s Community Engagement Manager and lead researcher at WP3. Her research interests focus on communicable diseases and their epidemiology.
@@ -104,7 +104,7 @@ hide:
 
 - title: Thais Riback
   content: Biologist with a MSc and PhD in Zoology. I am interested in studies on ecology and population dynamics of arbovirus vectors and their impact on the dynamics of disease transmission. I currently work as an analyst at the Epidemiological Intelligence Center of the Secretariat of Health of Rio de Janeiro City and as a collaborating researcher in the Infodengue system.
-  image: assets/img/team/thais.png
+  image: assets/img/team/thais.jpg
 
 - title: Laís Picinini Freitas
   content: Researcher at the Scientific Computing Program (PROCC/Fiocruz), with a master's and PhD in Epidemiology from ENSP/Fiocruz. She completed postdoctoral training at PROCC and CReSP, Université de Montréal. Her work focuses on Bayesian modeling of infectious diseases, especially arboviruses, analyzing spatial patterns and socio-environmental determinants.

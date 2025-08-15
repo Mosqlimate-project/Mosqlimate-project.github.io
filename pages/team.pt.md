@@ -28,7 +28,7 @@ hide:
 
 - title: Eduardo Corrêa Araujo
   content: Graduado em Engenharia de Controle e Automação na UTFPR. Possui experiência em análise de dados de saúde pública e desenvolvimento de modelos de aprendizado de máquina aplicados a contextos epidemiológicos. Seus interesses incluem ciência de dados aplicada à saúde, modelagem matemática e computacional de doenças, desenvolvimento de ferramentas em Python e colaboração interdisciplinar em projetos de impacto social. Atua como cientista de dados no WP2 do projeto Mosqlimate e é gerente do projeto.
-  image: assets/img/team/eduardo.png
+  image: assets/img/team/eduardo.jpg
 
 - title: Iasmim Ferreira de Almeida
   content: Pesquisadora de pós-doutorado na FGV/EMap. PhD e mestrado em Epidemiologia em Saúde Pública pela ENSP/FIOCRUZ. Pesquisadora nos projetos InfoDengue e Mosqlimate, integra o WP2, onde trabalha com modelos envolvendo padrões de transmissão de arbovírus e seus determinantes epidemiológicos e climáticos. É também gerente de engajamento comunitário do Mosqlimate e Coordenadora do WP3. Seus interesses de pesquisa concentram-se em doenças transmissíveis e sua epidemiologia.
@@ -104,7 +104,7 @@ hide:
 
 - title: Thais Riback
   content: Bióloga com PhD e mestrado em Zoologia. Interesse em estudos de ecologia e dinâmica populacional de vetores de arboviroses e seu impacto na dinâmica de transmissão de doenças. Atualmente atuo como analista no Centro de Inteligência Epidemiológica da Secretaria de Saúde do Rio de Janeiro e colaboradora no sistema InfoDengue.
-  image: assets/img/team/thais.png
+  image: assets/img/team/thais.jpg
 
 - title: Laís Picinini Freitas
   content: Pesquisadora no Programa de Computação Científica (PROCC/Fiocruz), com mestrado e doutorado em Epidemiologia pela ENSP/FIOCRUZ. Realizei pós-doutorado no PROCC e no CReSP da Université de Montréal. Meu trabalho foca em modelagem bayesiana de doenças infecciosas, especialmente arboviroses, analisando padrões espaciais e determinantes socioambientais.
